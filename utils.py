@@ -84,6 +84,14 @@ def clean_vocabulary(df):
     return cleaned_df
 
 
-
+def clean_ingredients_list(df):
+    ingredients = []
+    for i in range(len(df)):
+        ing = (df['ingredients'][i].split(','))
+        ingredients.append(ing)
+    ingredients[0]
+    df = pd.DataFrame(ingredients)
+    df = df.map(lambda x: x if x is not None else '')
+    df = df.map(clean_text)
 
 
