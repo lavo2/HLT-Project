@@ -53,7 +53,9 @@ def clean_vocabulary(df):
     df['ingredients'] = df['ingredients'].apply(clean_text)
     df = df.drop_duplicates()
     df = df[df['ingredients'] != '']
-    nlp = stanza.Pipeline(lang='en', processors='tokenize, pos, lemma')
+
+    nlp = stanza.Pipeline(lang='en', processors='tokenize, mwt, pos, lemma', use_gpu=True)
+    
     # definition of new dictionary
     cleaned_ingredients = []
 
