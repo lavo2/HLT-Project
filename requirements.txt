@@ -1,0 +1,15 @@
+datasets==2.19.1
+gensim==4.3.2
+huggingface-hub==0.22.2
+keras==3.2.1
+matplotlib==3.8.4
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+seaborn==0.13.2
+stanza==1.8.2
+tensorflow==2.16.1
+torch==2.2.2
+tqdm==4.66.2
+transformers==4.39.3
+
