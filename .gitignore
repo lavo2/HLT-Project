@@ -3,3 +3,5 @@
 foodbert/
 AFFECT-FINETUNING-BERTino_for_multi_label_text_classification.ipynb
 models
+google-bert
+__pycache__
