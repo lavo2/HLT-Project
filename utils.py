@@ -116,7 +116,7 @@ def clean_ingredients_list(df):
                 
                 ### NOTICE THAT WE ARE USING `lemmas` INSTEAD OF `tokens`, so we will define our clean dictionary with the pure form of the words (their lemmatization!!!) ###
                 # eliminate the tokens in `tokens` that are ADJ in `pos_tags`
-                tokens = [lemmas[i] for i in range(len(tokens)) if pos_tags[i] != 'ADJ' and pos_tags[i] != 'PROPN']
+                tokens = [lemmas[i] for i in range(len(tokens)) if pos_tags[i] != 'ADJ' and pos_tags[i] != 'PROPN' and pos_tags[i] != 'VERB']
 
                 # reconvert tokens to a string
                 cleaned_ingredient = ' '.join(tokens)
