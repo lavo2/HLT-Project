@@ -9,6 +9,7 @@ We worked on the [Food Recipe Dataset](https://www.kaggle.com/datasets/snehallok
 
 ### Repository Structure
 
+```
 ./
 ├── 📂 project
 │   ├── 📄 main.ipynb
@@ -35,6 +36,7 @@ We worked on the [Food Recipe Dataset](https://www.kaggle.com/datasets/snehallok
 │           └── ...
 ├── 📄 README.md
 └── 📄 .gitignore
+```
 
 
 
