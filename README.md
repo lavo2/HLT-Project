@@ -5,35 +5,30 @@ This project aims to develop a classification system  designed to identify and c
 We worked on the [Food Recipe Dataset](https://www.kaggle.com/datasets/snehallokesh31096/recipe/data) available on Kaggle.
 
 ### Requirements
-
+```cmd
+pip install -r requirements.txt
+```
 
 ### Repository Structure
 
 ```
 ./
 ├── 📂 project
-│   ├── 📄 main.ipynb
-│   ├── 📄 utils.py
-│   ├── 📄 run_experiments.py
+│   ├── 📄 data_understanding.ipynb
+│   ├── 📄 classification_standard_ml.ipynb
+│   ├── 📄 NER.ipynb
+│   ├── 📄 static_embeddings_classification.ipynb
+│   ├── 📄 RNNs.ipynb
+│   ├── 📄 finetuning_multi.ipynb
+│   ├── 📄 finetuning_veg.ipynb
 │   ├── 📄 requirements.txt
-│   └── 📂 kb
-│       └── 📄 kb.pl
-│   └── 📂 maps
-│       ├── 📄 real_maze.des
+│   └── 📂 old_notebooks
+│   └── 📂 dataset
+│       ├── 📄 dataset.csv
 │       └── ...
-│   └── 📂 experiments
-│       └── 📂 exp_manhattan
-│           └── 📂 run_8_map_real_maze
-│                  ├── 📄 fitness.json
-│                  └── 📄 stats.csv
-│           └── 📂 run_16_map_real_maze
-│                  └── ...
-│           └── 📂 run_32_map_real_maze
-│                  └── ... 
-│       └── 📂 exp_informed
-│           └── ...
-│       └── 📂 exp_dynamic
-│           └── ...
+│   └── 📂 models
+│       ├── 📂 bert_model1
+│       └── ...
 ├── 📄 README.md
 └── 📄 .gitignore
 ```
