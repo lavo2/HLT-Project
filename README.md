@@ -42,15 +42,19 @@ pip install -r requirements.txt
 - NER.ipynb: extraction of the ingredients and cleaning with spaCy and Stanza.
 - classification_standard_ml.ipynb: experiments with RF, MLP, SVM with ohe.
 - static_embeddings_classification.ipynb: experiments with RF, MLP, SVM, LogReg with Word2Vec.
-- RNNs.ipynb: experiments with RNNs architecture.
-- finetuning_veg.ipynb: finetuning of BERT for the single label task
-- finetuning_multi.ipynb: finetuning of BERT for the multi label task
+- RNNs.ipynb: experiments with RNN architectures.
+- finetuning_veg.ipynb: finetuning of BERT for the single label task.
+- finetuning_multi.ipynb: finetuning of BERT for the multi label task.
 
 The notebooks can be run in the listed order to replicate the experiments.
   
 
+### Contributors
 
-
+- [Irene Dovichi](https://github.com/irenedovichi)
+- [Marco Lavorini](https://github.com/lavo2)
+- [Alice Nicoletta](https://github.com/AliceNi99)
+- [Nicola Pitzalis](https://github.com/nicolapitzalis)
 
 
 
