@@ -15,13 +15,16 @@ pip install -r requirements.txt
 ./
 ├── 📂 project
 │   ├── 📄 data_understanding.ipynb
-│   ├── 📄 classification_standard_ml.ipynb
 │   ├── 📄 NER.ipynb
+│   ├── 📄 classification_standard_ml.ipynb
 │   ├── 📄 static_embeddings_classification.ipynb
 │   ├── 📄 RNNs.ipynb
-│   ├── 📄 finetuning_multi.ipynb
 │   ├── 📄 finetuning_veg.ipynb
+│   ├── 📄 finetuning_multi.ipynb
 │   ├── 📄 requirements.txt
+│   └── 📂 utils
+│       ├── 📄 macro_tags.py
+│       └── ...
 │   └── 📂 old_notebooks
 │   └── 📂 dataset
 │       ├── 📄 dataset.csv
@@ -32,6 +35,20 @@ pip install -r requirements.txt
 ├── 📄 README.md
 └── 📄 .gitignore
 ```
+
+### Project Overview
+
+- data_understanding.ipynb: all the cell required to obtain the datasets needed for the rest of the project and some data analisys.
+- NER.ipynb: extraction of the ingredients and cleaning with spaCy and Stanza.
+- classification_standard_ml.ipynb: experiments with RF, MLP, SVM with ohe.
+- static_embeddings_classification.ipynb: experiments with RF, MLP, SVM, LogReg with Word2Vec.
+- RNNs.ipynb: experiments with RNNs architecture.
+- finetuning_veg.ipynb: finetuning of BERT for the single label task
+- finetuning_multi.ipynb: finetuning of BERT for the multi label task
+
+The notebooks can be run in the listed order to replicate the experiments.
+  
+
 
 
 
