@@ -38,15 +38,17 @@ pip install -r requirements.txt
 
 ### Project Overview
 
-- data_understanding.ipynb: all the cell required to obtain the datasets needed for the rest of the project and some data analisys.
-- NER.ipynb: extraction of the ingredients and cleaning with spaCy and Stanza.
-- classification_standard_ml.ipynb: experiments with RF, MLP, SVM with ohe.
-- static_embeddings_classification.ipynb: experiments with RF, MLP, SVM, LogReg with Word2Vec.
-- RNNs.ipynb: experiments with RNN architectures.
-- finetuning_veg.ipynb: finetuning of BERT for the single label task.
-- finetuning_multi.ipynb: finetuning of BERT for the multi label task.
+- `data_understanding.ipynb`: all the cells required to obtain the datasets needed for the rest of the project, and some data analysis.
+- `NER.ipynb`: extraction of the ingredients and cleaning with spaCy and Stanza.
+- `classification_standard_ml.ipynb`: experiments with RF, MLP, SVM with one-hot encoding.
+- `static_embeddings_classification.ipynb`: experiments with RF, MLP, SVM, LogReg with Word2Vec.
+- `RNNs.ipynb`: experiments with RNN architectures.
+- `finetuning_veg.ipynb`: finetuning of BERT for the single-label task.
+- `finetuning_multi.ipynb`: finetuning of BERT for the multi-label task.
 
 The notebooks can be run in the listed order to replicate the experiments.
+
+The [report](https://github.com/lavo2/HLT-Project/blob/main/Report_Group15.pdf) contains the description of the project, with the results of the most significant experiments, and bibliographic references.
   
 
 ### Contributors
